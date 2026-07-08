@@ -1,8 +1,23 @@
 function add() {
-    let num1 = Number(document.getElementById("num1").value);
-    let num2 = Number(document.getElementById("num2").value);
+    let a = Number(document.getElementById("num1").value);
+    let b = Number(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML = "Result: " + (a + b);
+}
 
-    let result = num1 + num2;
+function subtract() {
+    let a = Number(document.getElementById("num1").value);
+    let b = Number(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML = "Result: " + (a - b);
+}
 
-    document.getElementById("result").innerHTML = "Bu'aa: " + result;
+function multiply() {
+    let a = Number(document.getElementById("num1").value);
+    let b = Number(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML = "Result: " + (a * b);
+}
+
+function divide() {
+    let a = Number(document.getElementById("num1").value);
+    let b = Number(document.getElementById("num2").value);
+    document.getElementById("result").innerHTML = "Result: " + (a / b);
 }
