@@ -1,0 +1,10 @@
+<header>
+    <img src="images/naa.jpg" alt="Suuraa Ammar" class="profile">
+
+    <h1>Ammar Nasradin</h1>
+    <p>Web Developer Barachaa Jira</p>
+
+    <nav>
+        ...
+    </nav>
+</header>
