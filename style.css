@@ -13,7 +13,14 @@ p {
     color: green;
     font-size: 20px;
 }
+h2 {
+    color: darkblue;
+}
 
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
 button {
     background-color: blue;
     color: white;
