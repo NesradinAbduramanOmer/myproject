@@ -1,3 +1,3 @@
-function nagaa() {
-    alert("Baga Gara Website Koo Dhuftan!");
+function showMessage() {
+    alert("Baga dhuftan website Ammar Nasradin!");
 }
