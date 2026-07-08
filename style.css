@@ -64,3 +64,35 @@ footer{
     margin:20px auto;
     border:4px solid white;
 }
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    .profile {
+        width: 140px;
+        height: 140px;
+    }
+
+    .card {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    input,
+    textarea,
+    button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
