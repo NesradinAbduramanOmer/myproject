@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: #e0ffff;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -9,40 +9,15 @@ h1 {
     font-size: 40px;
 }
 
-p {
-    color: green;
-    font-size: 20px;
-}
 h2 {
     color: darkblue;
 }
 
 p {
+    color: green;
     font-size: 20px;
     line-height: 1.6;
 }
-button {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-}body {
-}{
-    background-color: lightblue;
-    font-family: Arial, sans-serif;
-   ss text-align: center;
-}
-
-h1 {
-    color: darkblue;
-    font-size: 40px;
-}
-
-p {
-    color: green;
-    font-size: 20px;
-}
 
 button {
     background-color: blue;
@@ -50,20 +25,30 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-}nav {
-  background-color: #1e3a8a;
-  padding: 15px;
-  text-align: center;
+}
+
+nav {
+    background-color: #1e3a8a;
+    padding: 15px;
+    text-align: center;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  margin: 20px;
-  font-size: 20px;
-  font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav a:hover {
-  color: yellow;
+    color: yellow;
+}
+
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
