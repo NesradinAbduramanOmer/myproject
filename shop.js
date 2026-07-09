@@ -1,17 +1,22 @@
 let total = 0;
 
 function addToCart(name, price) {
-    // Cart keessatti item haaraa uumi
     let li = document.createElement("li");
-    li.innerHTML = `${name} - ${price} Birr`;
 
-    // Cart irratti dabali
+    li.innerHTML = `${name} - ${price} Birr
+    <button onclick="removeItem(this, ${price})">🗑️ Haqi</button>`;
+
     document.getElementById("cart").appendChild(li);
 
-    // Waliigala shallagi
     total += price;
+    document.getElementById("total").innerHTML =
+        "Waliigala: " + total + " Birr";
+}
 
-    // Waliigala agarsiisi
+function removeItem(button, price) {
+    button.parentElement.remove();
+
+    total -= price;
     document.getElementById("total").innerHTML =
         "Waliigala: " + total + " Birr";
 }
