@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="om">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+
+<h1>💱 Currency Converter</h1>
+
+<input type="number" id="amount" placeholder="Maallaqa galchi">
+
+<br><br>
+
+<select id="currency">
+    <option value="160">USD → ETB</option>
+    <option value="185">EUR → ETB</option>
+    <option value="2">KES → ETB</option>
+</select>
+
+<br><br>
+
+<button onclick="convert()">Jijjiiri</button>
+
+<h2 id="result"></h2>
+
+<p><a href="index.html">⬅ Gara Manaatti Deebi'i</a></p>
+
+<script src="currency.js"></script>
+
+</body>
+</html>
