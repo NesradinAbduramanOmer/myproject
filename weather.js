@@ -13,17 +13,21 @@ function getWeather() {
     fetch(url)
         .then(response => response.json())
         .then(data => {
-            if (data.cod == 200) {
+            console.log(data);
+
+            if (data.cod == 200 || data.cod == "200") {
                 document.getElementById("result").innerHTML =
                     `<h3>${data.name}</h3>
                     <p>🌡️ Temperature: ${data.main.temp}°C</p>
                     <p>☁️ Weather: ${data.weather[0].description}</p>
                     <p>💧 Humidity: ${data.main.humidity}%</p>`;
             } else {
-                document.getElementById("result").innerHTML = "❌ Magaalaan hin argamne!";
+                document.getElementById("result").innerHTML =
+                    "❌ " + data.message;
             }
         })
         .catch(error => {
+            console.log(error);
             document.getElementById("result").innerHTML = "❌ Error!";
         });
 }
