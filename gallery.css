@@ -1,0 +1,20 @@
+gallery.css
+.photo{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+}
+
+.photo button{
+    margin-top:10px;
+    background:#ff4081;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.photo button:hover{
+    background:#e91e63;
+}
