@@ -135,3 +135,40 @@ button {
     margin:15px;
     border-radius:8px;
 }
+.social{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin:20px 0;
+}
+
+.social a{
+    text-decoration:none;
+    color:white;
+    padding:12px 18px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.facebook{
+    background:#1877F2;
+}
+
+.telegram{
+    background:#229ED9;
+}
+
+.github{
+    background:#24292F;
+}
+
+.email{
+    background:#EA4335;
+}
+
+.social a:hover{
+    transform:scale(1.08);
+    opacity:0.9;
+}
