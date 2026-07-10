@@ -1,3 +1,4 @@
+console.log("Calendar loaded");
 const months = {
     om: ["Amajjii","Guraandhala","Bitooteessa","Elba","Caamsaa","Waxabajjii","Adooleessa","Hagayya","Fulbaana","Onkololeessa","Sadaasa","Muddee"],
     am: ["ጥር","የካቲት","መጋቢት","ሚያዝያ","ግንቦት","ሰኔ","ሐምሌ","ነሐሴ","መስከረም","ጥቅምት","ህዳር","ታህሳስ"],
