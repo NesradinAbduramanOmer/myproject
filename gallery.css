@@ -1,8 +1,34 @@
-gallery.css
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    text-align:center;
+    margin:0;
+}
+
+h1{
+    margin:20px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
 .photo{
     background:white;
     padding:15px;
     border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.photo img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    cursor:pointer;
 }
 
 .photo button{
@@ -17,4 +43,18 @@ gallery.css
 
 .photo button:hover{
     background:#e91e63;
+}
+
+.popup{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.9);
+    justify-content:center;
+    align-items:center;
+}
+
+.popup img{
+    max-width:90%;
+    max-height:90%;
 }
