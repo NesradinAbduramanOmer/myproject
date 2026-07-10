@@ -1,30 +1,16 @@
-<!DOCTYPE html>
-<html lang="om">
-<head>
-    <meta charset="UTF-8">
-    <title>Na Qunnamaa</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<form onsubmit="return validateForm()">
 
-<nav>
-    <a href="index.html">Mana</a>
-    <a href="about.html">Waa'ee Koo</a>
-    <a href="services.html">Tajaajila</a>
-    <a href="contact.html">Na Qunnamaa</a>
-</nav>
+    <input type="text" id="name" placeholder="Maqaa Kee">
+    <br><br>
 
-<h1>Na Qunnamaa</h1>
+    <input type="email" id="email" placeholder="Email Kee">
+    <br><br>
 
-<p>📧 Email: ammarnasradin@gmail.com</p>
-<p>📞 Bilbila: +251 915 081 547</p>
+    <textarea id="message" placeholder="Ergaa Kee"></textarea>
+    <br><br>
 
-<form>
-    <input type="text" placeholder="Maqaa Kee"><br><br>
-    <input type="email" placeholder="Email Kee"><br><br>
-    <textarea rows="5" placeholder="Ergaa Kee"></textarea><br><br>
-    <button type="submit">Ergaa Ergi</button>
+    <button type="submit">📨 Ergi</button>
+
 </form>
 
-</body>
-</html>
+<p id="result"></p>

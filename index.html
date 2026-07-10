@@ -58,19 +58,22 @@
 
     <ul>
        <ul>
-    <li>🌐 Personal Portfolio Website</li>
-    <li>🌦️ Weather App</li>
-    <li>🧮 Calculator</li>
-    <li>📝 To-Do App</li>
-    <li>🎂 Age Calculator</li>
-    <li>🛒 Shopping Cart</li>
-    <li>🔐 Login System</li>
-    <li>❓ Quiz App</li>
-    <li>⏰ Digital Clock</li>
-    <li>💱 Currency Converter</li>
-    <li>📝 Notes App</li>
-    <li>📅 Ethiopian Calendar</li>
-    <li>🖼️ Image Gallery</li>
+    <ul id="projectList">
+    <li data-type="web">🌐 Personal Portfolio Website</li>
+    <li data-type="app">🌦️ Weather App</li>
+    <li data-type="app">🧮 Calculator</li>
+    <li data-type="app">📝 To-Do App</li>
+    <li data-type="app">🎂 Age Calculator</li>
+    <li data-type="app">🛒 Shopping Cart</li>
+    <li data-type="app">🔐 Login System</li>
+    <li data-type="app">❓ Quiz App</li>
+    <li data-type="app">⏰ Digital Clock</li>
+    <li data-type="app">💱 Currency Converter</li>
+    <li data-type="app">📝 Notes App</li>
+    <li data-type="app">📅 Ethiopian Calendar</li>
+    <li data-type="web">🖼️ Image Gallery</li>
+</ul>
+</ul>
 </ul>
     </ul>
 </section>
@@ -95,10 +98,26 @@
 </main>
 
 <footer>
+    <h3>Na Hordofaa</h3>
+
+<a href="#">Facebook</a> |
+<a href="#">Telegram</a> |
+<a href="#">GitHub</a> |
+<a href="#">Email</a>
     <p>© 2026 Ammar Nasradin</p>
 </footer>
 
 <script src="script.js"></script>
+<input
+    type="text"
+    id="search"
+    placeholder="🔍 Project barbaadi..."
+    onkeyup="searchProject()">
+    <select id="filter" onchange="filterProjects()">
+    <option value="all">📂 Projects Hunda</option>
+    <option value="app">📱 Apps</option>
+    <option value="web">🌐 Websites</option>
+</select>
 
 </body>
 </html>

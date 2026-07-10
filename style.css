@@ -121,3 +121,17 @@ button {
 #cart button:hover{
     background:darkred;
 }
+#search{
+    width:90%;
+    max-width:400px;
+    padding:10px;
+    margin:20px auto;
+    display:block;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+#filter{
+    padding:10px;
+    margin:15px;
+    border-radius:8px;
+}
